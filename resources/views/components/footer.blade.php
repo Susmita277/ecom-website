@@ -1,8 +1,8 @@
-<footer class="   mx-12 my-6 text-white bg-primary px-12 pt-12 rounded-tr-3xl rounded-bl-3xl hidden lg:block ">
+<footer class="    my-6 text-white bg-primary px-12 pt-12 mx-12 rounded-tr-3xl rounded-bl-3xl hidden lg:block ">
     <div class="container  flex w-full  gap-10 text-white ">
         <div class="flex-col  w-[30%]">
             <li class="flex gap-0 items-center ">
-                <img src="fabdale logo white.png" alt="logo" class=" w-[120px] object-cover object-center">
+                <img src="whitelogo.png" alt="logo" class=" object-cover object-center">
 
             </li>
             <div class="py-4">
