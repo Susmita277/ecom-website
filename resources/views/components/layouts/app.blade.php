@@ -7,11 +7,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
-
-    <div class="sticky top-0 z-70">
        <livewire:navigation/>
-    </div>
-
     {{ $slot }}
     <x-footer/>
 </body>
