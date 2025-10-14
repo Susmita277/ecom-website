@@ -1,4 +1,4 @@
-           <div class="px-12">
+           <div class="px-12 pb-12">
         <div class="w-full h-full relative  grid grid-cols-5 bg-primary rounded-xl mt-2">
                <div class="flex items-center justify-left pl-12 col-span-2">
                <div>
