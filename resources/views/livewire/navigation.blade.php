@@ -1,40 +1,36 @@
 
-<nav class="font-poppins lg:block hidden px-12 py-2 bg-white " x-data>
+<nav class="font-poppins lg:block hidden px-12 py-2 bg-white sticky top-0 z-50 " x-data>
     <ul class="flex  justify-between items-center">
         <a href="">
-            <li class="flex gap-0 items-center ">
-                <img src="logo.png" alt="logo" class=" w-[120px] object-cover object-center">
+            <li class="flex gap-0 items-center w-[40px] h-[40px] overflow-hidden">
+                <img src="logo.png" alt="logo" class="  object-cover w-full h-full object-center">
 
             </li>
         </a>
 
         <li class="flex items-center gap-8 ">
             <div class="flex gap-8 items-center transition-all smooth ">
-                <h5 class="hover:text-primary">Home</h5>
+                <h5 class="hover:text-primary  cursor-pointer">Home</h5>
 
                 <div class=" group  inline-block ">
-                    <h5 class="group-hover:text-primary z-50">Women</h5>
+                    <h5 class="group-hover:text-primary z-50 cursor-pointer">Women</h5>
              
                 </div>
                 <div class=" group ">
-                    <h5 class="group-hover:text-primary">Men</h5>
+                    <h5 class="group-hover:text-primary cursor-pointer">Men</h5>
                 </div>
                 <div class=" group ">
-                    <h5 class="group-hover:text-primary">Kids</h5>
+                    <h5 class="group-hover:text-primary cursor-pointer">Kids</h5>
     
                 </div>
 
-
-
+                    <h5 class="hover:text-primary cursor-pointer">All</h5>
             
-                    <h5 class="hover:text-primary">All</h5>
-                
-
             </div>
             <div class="flex gap-4">
 
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor" class="size-6" @click.prevent="$store.modal.showSearchModal()">
+                    stroke="currentColor" class="size-6" >
                     <path stroke-linecap="round" stroke-linejoin="round"
                         d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                 </svg>
