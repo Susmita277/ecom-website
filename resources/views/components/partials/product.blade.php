@@ -1,8 +1,8 @@
  <div>
 
-     <div class="  border border-gray-200 text-center p-2">
+     <div class="  border border-gray-200 text-center ">
          <a href="">
-             <div class=" overflow-hidden pb-5">
+             <div class=" overflow-hidden ">
                  <img src="https://i.pinimg.com/1200x/f0/f6/3e/f0f63e1bb4a443c3a357edd4f383fbb8.jpg"
                      onerror="this.src = window.location.origin + '/image-placeholder.webp'">
              </div>
@@ -11,9 +11,13 @@
 
      <div class="flex justify-between pt-4 ">
          <div>
-             <div> <strong class="text-sm font-medium">Leather jacket</strong>
+             <div> <span class="text-gray-500">Leather jacket</span></div>
+             <div class="flex gap-2">
+                 <span class="!text-[12px] text-gray-500 line-through">NPR.700</span>
+                 <span class="!text-[12px] ">NPR.500</span>
+                 <span class="!text-[12px] text-accent">10% off</span>
+
              </div>
-             <strong class="text-sm">NPR.500</strong>
          </div>
 
          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
