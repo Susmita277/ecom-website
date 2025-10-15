@@ -1,12 +1,12 @@
 <footer class="    my-6 text-white bg-primary px-12 pt-12 mx-12 rounded-tr-3xl rounded-bl-3xl hidden lg:block ">
-    <div class="container  flex w-full  gap-10 text-white ">
+    <div class="container  flex w-full  gap-20 text-white ">
         <div class="flex-col  w-[30%]">
-            <li class="flex gap-0 items-center ">
-                <img src="whitelogo.png" alt="logo" class=" object-cover object-center">
+            <li class="flex gap-0 items-center w-[50px] h-[50px]">
+                <img src="whitelogo.png" alt="logo" class=" object-cover object-center w-full h-full">
 
             </li>
             <div class="py-4">
-                <span>Discover the latest trends and timeless styles curated just for you.
+                <span class="py-2">Discover the latest trends and timeless styles curated just for you.
                     Elevate your wardrobe with quality fashion that speaks your vib </span>
             </div>
             <div class="py-4 flex gap-2">
@@ -42,89 +42,68 @@
                 </a>
             </div>
         </div>
-        <div class="flex justify-between w-[70%]">
-            <div>
-                <h4>Quick Links</h4>
-                <div class="list-none ">
+        <div>
+            <h4>Quick Links</h4>
+            <ul>
+                <li class="py-2">
                     <a>
-                        <p>Home</p>
+                        <span >Home</span>
                     </a>
+                </li>
+                <li class="py-2">
                     <a>
-                        <p>About</p>
+                        <span>About </span>
                     </a>
+                </li>
+                <li class="py-2">
                     <a>
-                        <p>Services</p>
+                        <span>Services</span>
                     </a>
-
-                </div>
-            </div>
-            <div>
-                <h4>Useful Links</h4>
-                <div class="list-none ">
-                    <a href="">
-                        <p>Terms and Conditions</p>
-                    </a>
-                    <a href="">
-                        <p>Privacy Policy</p>
-                    </a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h4>Quick Links</h4>
+            <ul>
+                <li class="py-2">
                     <a>
-                        <p>Support</p>
+                        <span>Home</span>
                     </a>
+                </li>
+                <li class="py-2">
                     <a>
-                        <p>FAQs</p>
+                        <span>About </span>
                     </a>
-
-                </div>
-            </div>
-            <div>
-                <h4>Support</h4>
-                <div class="list-none ">
+                </li>
+                <li class="py-2">
                     <a>
-                        <p>Help Center</p>
+                        <span>Services</span>
                     </a>
-                    <a href="">
-                        <p>Contact Us</p>
-                    </a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h4>Quick Links</h4>
+            <ul>
+                <li class="py-2">
                     <a>
-                        <p>FAQs</p>
+                        <span>Home</span>
                     </a>
-                </div>
-            </div>
-            <div>
-                <h4>Shop More</h4>
-                <div class="list-none ">
-
+                </li>
+                <li class="py-2">
                     <a>
-                        <p>Men</p>
+                        <span>About </span>
                     </a>
+                </li>
+                <li class="py-2">
                     <a>
-                        <p>Women</p>
+                        <span>Services</span>
                     </a>
-
-
-                    <a>
-                        <p>Kids</p>
-                    </a>
-
-
-
-                    <a>
-                        <p>Ethnic Wear</p>
-                    </a>
-
-
-                    <a>
-                        <p>Traditional Wear</p>
-                    </a>
-
-
-                </div>
-            </div>
+                </li>
+            </ul>
         </div>
     </div>
     <div class="flex justify-center items-center p-2  border-[#3a6e7d]">
-        <p class="text-white">Copyright@Fabdale</p>
+        <p class="text-white">Copyright@Fabdale</span>
     </div>
 </footer>
-
-     
